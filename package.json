@@ -9,6 +9,7 @@
         "test": "vitest",
         "build": "tsc -b && vite build",
         "lint": "eslint .",
+        "postbuild": "cp dist/index.html dist/404.html",
         "preview": "vite preview",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
