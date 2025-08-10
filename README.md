@@ -34,7 +34,7 @@ Easily search cities, view detailed forecasts, save favorites, and enjoy a smoot
 ## 📸 Screenshots & Demo  
 
 ### 🎥 Video Demo  
-<video src="screenshots/video.mp4" controls width="700"></video> 
+[Watch Demo](screenshots/video.mp4)
 
 ### 🖼 Screenshots  
 
