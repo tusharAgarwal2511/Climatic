@@ -63,6 +63,13 @@ flowchart LR
     O -->|Weather JSON| T
     T -->|Provide Cached/Live Data| R[React UI Components]
     R -->|Render Weather Info| UI[Weather Dashboard]
+
+    %% Styles
+    style U fill:#E6F7FF,stroke:#1890FF,stroke-width:2px,color:#000,font-weight:bold
+    style T fill:#FFF7E6,stroke:#FA8C16,stroke-width:2px,color:#000,font-weight:bold
+    style O fill:#F6FFED,stroke:#52C41A,stroke-width:2px,color:#000,font-weight:bold
+    style R fill:#FFF0F6,stroke:#EB2F96,stroke-width:2px,color:#000,font-weight:bold
+    style UI fill:#F9F0FF,stroke:#722ED1,stroke-width:2px,color:#000,font-weight:bold
     
 ```
 
