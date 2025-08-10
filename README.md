@@ -1,69 +1,50 @@
-# React + TypeScript + Vite
+# 🌤 Climatic – Weather App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with **Vite**, **React**, **TypeScript**, and **Tailwind CSS**, powered by the **OpenWeatherMap API**.  
+Easily search cities, view detailed forecasts, save favorites, and enjoy a smooth UI with light & dark mode.  
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Climatic on GitHub Pages](https://tusharagarwal2511.github.io/Climatic)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔍 **City Search** – Find real-time weather details for any city  
+- ⭐ **Add to Favourites** – Quickly access your most searched cities  
+- 🌗 **Light & Dark Mode** – Switch themes for comfortable viewing  
+- 📅 **5-Day Forecast** – View temperature trends with interactive charts  
+- 📊 **Data Visualization** – Weather trends displayed using **Recharts**  
+- ⚡ **Fast & Reactive** – Powered by **TanStack Query** for seamless data fetching and caching  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠 Tech Stack  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [Vite](https://vitejs.dev/)  
+- [React](https://react.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [shadcn/ui](https://ui.shadcn.com/)  
+- [Recharts](https://recharts.org/)  
+- [TanStack Query](https://tanstack.com/query/latest)  
+- [OpenWeatherMap API](https://openweathermap.org/api)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📸 Screenshots & Demo  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🎥 Video Demo  
+<video src="screenshots/video.mp4" controls width="700"></video> 
+
+### 🖼 Screenshots  
+
+| | | |
+|---|---|---|
+| ![Screenshot 01](screenshots/01.png) | ![Screenshot 02](screenshots/02.png) | ![Screenshot 03](screenshots/03.png) |
+| ![Screenshot 04](screenshots/04.png) | ![Screenshot 05](screenshots/05.png) | ![Screenshot 06](screenshots/06.png) |
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License** – feel free to use, modify, and share.  
