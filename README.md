@@ -33,8 +33,6 @@ Easily search cities, view detailed forecasts, save favorites, and enjoy a smoot
 
 ## 📸 Screenshots  
 
-### 🖼 Screenshots  
-
 | | | |
 |---|---|---|
 | ![Screenshot 01](screenshots/01.png) | ![Screenshot 02](screenshots/02.png) | ![Screenshot 03](screenshots/03.png) |
