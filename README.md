@@ -1,7 +1,7 @@
 # 🌤 Climatic – Weather App  
 
 A modern, responsive weather application built with **Vite**, **React**, **TypeScript**, and **Tailwind CSS**, powered by the **OpenWeatherMap API**.  
-Easily search cities, view detailed forecasts, save favorites, and enjoy a smooth UI with light & dark mode.  
+Easily search cities, view detailed forecasts, save favorites, and enjoy a smooth responsive UI with light & dark mode.  
 
 🔗 **Live Demo:** [Climatic on GitHub Pages](https://tusharagarwal2511.github.io/Climatic)  
 
@@ -31,10 +31,7 @@ Easily search cities, view detailed forecasts, save favorites, and enjoy a smoot
 
 ---
 
-## 📸 Screenshots & Demo  
-
-### 🎥 Video Demo  
-[▶ Watch the Demo](https://github.com/tusharAgarwal2511/Climatic/releases/download/v1.0.0/video.mp4)
+## 📸 Screenshots  
 
 ### 🖼 Screenshots  
 
