@@ -53,7 +53,7 @@ function FavouriteCityTablet({
             onClick={() => navigate(`/city/${name}?lat=${lat}&lon=${lon}`)}
             role="button"
             tabIndex={0}
-            className="relative flex min-w-[250px] cursor-pointer items-center gap-3 rounded-lg border bg-card p-4 pr-8 shadow-sm transition-all hober:shadow-md"
+            className="relative flex min-w-[250px] cursor-pointer items-center gap-3 rounded-lg border bg-card p-4 pr-8 shadow-sm transition-all hober:shadow-md bg-purple-50 dark:bg-black"
         >
             <Button
                 variant="ghost"

@@ -45,21 +45,32 @@ const WeatherDetails = ({data}: WeatherDetailsProps) => {
         },
     ];
   return (
-      <Card>
+      <Card className="bg-indigo-50 dark:bg-black">
           <CardHeader>
               <CardTitle>Weather Details</CardTitle>
           </CardHeader>
           <CardContent>
-              <div className='grid gap-6 sm:grid-cols-2'>
-                {details.map((detail) => {
-                    return <div key={detail.title} className='flex items-center gap-3 rounded-lg border p-4'>
-                        <detail.icon className={`h-5 w-5 ${detail.color}`}/>
-                        <div>
-                            <p className='text-sm font-medium leading-non'>{detail.title}</p>
-                            <p className='text-sm text-muted-foreground'>{detail.value}</p>
-                        </div>
-                    </div>
-                })}
+              <div className="grid gap-6 sm:grid-cols-2">
+                  {details.map((detail) => {
+                      return (
+                          <div
+                              key={detail.title}
+                              className="flex items-center gap-3 rounded-lg border p-4"
+                          >
+                              <detail.icon
+                                  className={`h-5 w-5 ${detail.color}`}
+                              />
+                              <div>
+                                  <p className="text-sm font-medium leading-non">
+                                      {detail.title}
+                                  </p>
+                                  <p className="text-sm text-muted-foreground">
+                                      {detail.value}
+                                  </p>
+                              </div>
+                          </div>
+                      );
+                  })}
               </div>
           </CardContent>
       </Card>

@@ -52,13 +52,13 @@ export const WeatherForecast = ({ data }: WeatherForecastProps) => {
     const formatTemp = (temp: number) => `${Math.round(temp)}°`;
 
     return (
-        <Card>
+        <Card className="bg-green-50 dark:bg-black">
             <CardHeader>
                 <CardTitle>5-Day Forecast</CardTitle>
             </CardHeader>
             <CardContent>
                 <div className="grid gap-4">
-                    {nextDays.map((day) =>{
+                    {nextDays.map((day) => {
                         return (
                             // <div
                             //     key={day.date}
@@ -177,7 +177,6 @@ export const WeatherForecast = ({ data }: WeatherForecastProps) => {
                     })}
                 </div>
             </CardContent>
-            
         </Card>
     );
 };

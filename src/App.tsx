@@ -34,7 +34,7 @@ function App() {
                             />
                         </Routes>
                     </Layout>
-                    <Toaster richColors/>
+                    <Toaster richColors />
                 </ThemeProvider>
             </BrowserRouter>
             <ReactQueryDevtools initialIsOpen={false} />

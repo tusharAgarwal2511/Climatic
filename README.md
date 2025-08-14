@@ -130,9 +130,3 @@ npm run build
 ```bash
 npm run preview
 ```
-
----
-
-## 📜 License  
-
-This project is licensed under the **MIT License** – feel free to use, modify, and share.  
